@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "SuperGluePretrainedNetwork"
+version = "0.1.0"
+authors = [{name = "Paul-Edouard Sarlin"}, {name = "Daniel DeTone"}, {name = "Tomasz Malisiewicz"}, {name = "Andrew Rabinovich"}]
+description = "SuperGlue pretrained network"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["SuperGluePretrainedNetwork*"]
